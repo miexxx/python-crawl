@@ -1,0 +1,23 @@
+1546419671882	geckodriver	INFO	geckodriver 0.19.1
+1546419671947	geckodriver	INFO	Listening on 127.0.0.1:52962
+1546419675012	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ZHW\\AppData\\Local\\Temp\\rust_mozprofile.zaIMAnlLwnJj"
+1546419677696	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1546419679679	Marionette	INFO	Enabled via --marionette
+1546419701205	Marionette	INFO	Listening on port 52970
+1546419701564	Marionette	WARN	TLS certificate errors will be ignored for this session
+1546419701599	Marionette	DEBUG	Register listener.js for window 4294967297
+1546419701973	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1546419703664	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1546419703664	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1546419705418	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/signup?next=%2F"
+1546419705621	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/signup?next=%2F"
+1546419705937	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1546419720439	Marionette	INFO	New connections will no longer be accepted
+[Child 7080] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+rName":"firefox"}}}]
+1544770134326	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+3147
+1544768695514	Marionette	DEBUG	Remote service is active
+1544768696006	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53191
+1544768696124	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1544768696125	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]

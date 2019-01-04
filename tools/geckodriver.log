@@ -1,0 +1,31 @@
+1544770910588	geckodriver	INFO	geckodriver 0.19.1
+1544770910597	geckodriver	INFO	Listening on 127.0.0.1:51297
+1544770913627	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ZHW\\AppData\\Local\\Temp\\rust_mozprofile.GcFII4YjMoqb"
+1544770914335	Marionette	INFO	Enabled via --marionette
+1544770917021	Marionette	INFO	Listening on port 51308
+1544770917255	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+ver notification profile-after-change
+1544770409174	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544770409201	Marionette	DEBUG	Received observer notification command-line-startup
+1544770409201	Marionette	DEBUG	Received observer notification nsPref:changed
+1544770409201	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544770409255	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544770413677	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544770413678	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1544770420786	Marionette	DEBUG	Received observer notification domwindowclosed
+1544770420786	Marionette	DEBUG	Waiting for delayed startup...
+1544770420794	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1544770420795	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544770420796	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1544770420797	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544770420798	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544770420798	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544770420856	Marionette	INFO	Listening on port 55974
+1544770420857	Marionette	DEBUG	Remote service is active
+[Child 4612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9664, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1544770421885	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56029
+1544770421886	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1544770421886	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+cktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
